@@ -1,0 +1,49 @@
+﻿@model Wikipedia.WebUI.Models.SearchViewModel
+
+<div class="container mt-4">
+
+    <h2>Wikipedia Search</h2>
+
+    <form method="post">
+
+        <div class="mb-3">
+
+            <input asp-for="SearchText"
+                   class="form-control"
+                   placeholder="Enter search text" />
+
+        </div>
+
+        <button type="submit"
+                class="btn btn-primary">
+            Search
+        </button>
+
+    </form>
+
+    <hr />
+
+    @if (Model?.Results != null && Model.Results.Any())
+    {
+        foreach (var item in Model.Results)
+        {
+            <div class="card mb-3">
+
+                <div class="card-body">
+
+                    <h4>@item.Title</h4>
+
+                    <p>@item.Description</p>
+
+                    <a href="@item.Url"
+                       target="_blank">
+                        Open Wikipedia
+                    </a>
+
+                </div>
+
+            </div>
+        }
+    }
+
+</div>

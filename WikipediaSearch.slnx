@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Wikipedia.Api/Wikipedia.Api.csproj" />
+  <Project Path="Wikipedia.Shared/Wikipedia.Shared.csproj" />
+  <Project Path="Wikipedia.WebUI/Wikipedia.WebUI.csproj" />
+</Solution>
