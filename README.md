@@ -16,6 +16,7 @@ Users enter a search term in the MVC application, which sends a request to a cus
 
 User
 ↓
+
 MVC WebUI
 ↓
 ASP.NET Core Web API
