@@ -15,14 +15,21 @@ Users enter a search term in the MVC application, which sends a request to a cus
 ## Architecture
 
 User
+
 ↓
 
 MVC WebUI
+
 ↓
+
 ASP.NET Core Web API
+
 ↓
+
 Wikipedia Service
+
 ↓
+
 Wikipedia External API
 
 ---
