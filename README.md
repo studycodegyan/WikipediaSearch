@@ -37,6 +37,7 @@ Wikipedia External API
 ## Solution Structure
 
 WikipediaSearch
+
 │
 
 ├── Wikipedia.WebUI
