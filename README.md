@@ -38,17 +38,28 @@ Wikipedia External API
 
 WikipediaSearch
 │
+
 ├── Wikipedia.WebUI
+
 │   ├── Controllers
+
 │   ├── Views
+
 │   └── Models
+
 │
+
 ├── Wikipedia.Api
+
 │   ├── Controllers
+
 │   ├── Services
+
 │   └── API Endpoints
+
 │
 └── Wikipedia.Shared
+
     └── DTOs
 
 ---
